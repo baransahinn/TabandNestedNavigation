@@ -1,15 +1,13 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { Text } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-function Favorites() {
+function MemberUpdate() {
   return (
     <SafeAreaView>
-    <View>
-    <Text>Favorites</Text>
-    </View>
+        <Text>Member Update</Text>
     </SafeAreaView>
   )
 }
 
-export default Favorites
+export default MemberUpdate
