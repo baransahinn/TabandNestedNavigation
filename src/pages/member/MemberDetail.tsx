@@ -1,11 +1,17 @@
+import { NavigatorScreenParams } from '@react-navigation/native'
 import React from 'react'
-import { Text } from 'react-native'
+import { Button, Text, View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { MemberStackParamList } from '../Type'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
-function MemberDetail() {
+type Props = NativeStackScreenProps<MemberStackParamList , 'MemberDetailScreen'>
+function MemberDetail({navigation}:Props) {
   return (
      <SafeAreaView>
-            <Text>hello</Text>
+            <View>
+              <Button title='Go Memmber Update' onPress={()=>{navigation.navigate('MemberUpdateScreen')}} />
+            </View>
         </SafeAreaView>
   )
 }

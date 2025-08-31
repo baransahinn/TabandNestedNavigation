@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 function ProfileEdit() {
   return (
       <SafeAreaView>
-            <Text>hello</Text>
+            <Text>Profile Edit</Text>
         </SafeAreaView>
   )
 }

@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 function MemberUpdate() {
   return (
     <SafeAreaView>
-        <Text>hello</Text>
+        <Text>Member Update</Text>
     </SafeAreaView>
   )
 }

@@ -9,4 +9,7 @@ export type MemberStackParamList = {
   MemberScreen: undefined;
   MemberDetailScreen: undefined;
   MemberUpdateScreen: undefined;
+  ProfileScreen : undefined;
+  ProfileEditScreen:undefined;
+
 };

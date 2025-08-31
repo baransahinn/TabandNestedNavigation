@@ -38,7 +38,7 @@ function App() {
   return (
 
     <NavigationContainer>
-     <Tab.Navigator>
+     <Tab.Navigator initialRouteName='Profile'>
        <Tab.Screen name='Member' component={MemberStack}/>
         <Tab.Screen name='Profile' component={ProfileStack}/>
      </Tab.Navigator>      
